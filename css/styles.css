@@ -1,0 +1,242 @@
+body{
+  overflow-x: hidden;
+  background: #fff;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+}
+.info__card h4 {
+  font-size: 16px;
+  text-align: center;
+  color: #939897;
+}
+.header-button{
+  width: 241px;
+  height: 62px;
+  position: absolute;
+  left: 222px;
+  top: 380px;
+  color: white;
+  font-size: 16px;
+  
+  background: #B7D2E7;}
+.banner-header{
+  position: absolute;
+width: 1254px; margin: 0px;
+}
+  
+header {
+  padding: 20px 0 0 0;
+  background: white;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.logo__container {
+  width: 50%;
+  margin-left: 20px;
+}
+.carrito__container {
+  width: 50%;
+}
+.carrito__container ul{
+  float: right;
+  margin-right: 30px;
+}
+.submenu {
+  position: relative;
+  list-style-type: none;
+  width: 50%;
+}
+.submenu #carrito{
+  display: none;
+}
+.submenu:hover #carrito{
+  display: block;
+  position: absolute;
+  right:0;
+  top:100%;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  min-height: 400px;
+  min-width: 300px;
+}
+.vacio {
+  padding: 10px;
+  background-color: crimson;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+}
+.borrar-curso {
+  background-color: red;
+  border-radius: 50%;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.banners{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.banners h3{
+  color: #F57E3A;
+
+}
+.banners p{
+  color: #939897;
+}
+#lista-cursos {
+  padding: 30px 0;
+  top: 500px;
+  position: relative;
+  
+}
+.encabezado__cursos{
+  margin-bottom: 30px;
+}
+.cursos__container{
+  margin-top: 30px;
+  display: grid;
+  grid-gap: 25px;
+	max-width: 1080px;
+	margin: 0 auto;
+  padding: 0 10px;
+}
+.curso__item{
+  border-radius: 20px;
+
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.curso__item:hover{
+  border: 2px solid #F57E3A;
+
+}
+.card__img, .imagen__curso{
+  width: 100%;
+}
+.info__card{
+  padding: 10px 10px;
+  position: relative;
+  height: 160px;
+}
+.info__card *{
+  margin-bottom: 10px;
+}
+.precio{
+  text-decoration: line-through;
+  color: red;
+}
+.discount{
+  color:#939897;
+  font-weight: bold;
+  float: right;
+  font-size: 1.25em;
+}
+.agregar-carrito{
+  background: #F57E3A;
+  padding: 5px 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.8em;
+  position: absolute;
+  bottom: 0;
+}
+.agregar-carrito:hover{
+  transition: 2s;
+  color: white;
+  background-color: #B7D2E7;
+}
+.depoimentos{
+  margin-top: 50px;
+}
+.depoimentos h3{
+  text-align: center;
+  color: #F57E3A;
+}
+.banner-depoimentos{
+  position: absolute;
+  width: 1254px;
+}
+
+.cliente{
+  position: relative;
+  top: px;
+  left: 93px;
+
+}
+
+.depoimento-cliente{
+  color: white;
+  width: 280px;
+height: 328px;
+position: absolute;
+left: 604px;
+top: 1050px;
+
+}
+
+footer .footer{
+  position: absolute;
+top: 1460px;
+  width: 1254px;
+}
+
+.endereco {
+  position: absolute;
+  top: 1530px;
+
+  color: white;
+  text-align: left;
+  margin-left: 100px;;
+
+}
+.redes-sociais{
+  position: absolute;
+  top: 1480px;
+  left: 790px;
+  
+  color: white;
+  margin-bottom: -550px;
+
+
+}
+
+footer h6{
+  color: #939897;
+  font-size: 16px;
+  font-style: bold;
+}
+
+.fa{    margin-bottom: 0;}
+@media (min-width: 750px) {
+  header {
+    text-align: left;
+  }
+}
+
+@media (min-width: 472px) and (max-width: 767px) {
+  .cursos__container{
+    grid-template-columns: 1fr 1fr;
+   }
+ }
+ @media all and (min-width: 768px) {
+  .cursos__container{
+    grid-template-columns: 1fr 1fr 1fr;
+   }
+ }
+ @media all and (min-width: 949px) {
+   .cursos__container{
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+   }
+ }

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pet Shop</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <header id="header" class="header">
+    <img src="images/banner-header.png" class ="banner-header"> 
+    <button class="header-button"> Conheça</button>
+
+    <div class="container">
+      <div class="row">
+
+        <!--Carrinho-->
+        <div class="two columns u-pull-right">
+          <ul>
+            <li class="submenu">
+              <img src="img/cart.png" id="img-carrito">
+
+              <!--Modal carrinho-->
+              <div id="carrito">
+                <table id="lista-carrito" class="u-full-width">
+                  <thead>
+                    <tr>
+                      <th>Imagem</th>
+                      <th>Nome</th>
+                      <th>Preço</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+                <!--Botao de esvaziar carrinho-->
+                <a href="#" id="vaciar-carrito" class="button u-full-width">Esvaziar Carrinho</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+
+  <div id="lista-cursos">
+
+    <div class="banners"> 
+      <h3> Aqui você encontra os melhores produtos pelo melhor preço! </h3>
+      <p> <img src="images/frete.png"> Entregas gratis a partir de <b>R$100</b></p>
+      <img src="images/banner.png"> 
+      <img src="images/banner1.png"> 
+      <img src="images/banner2.png"> 
+       </div>
+
+    <div class="cursos__container"><!--Container-->
+      <div class="curso__item" > <!--Item individual-->
+        <div class="curso__card"  > <!--Corpo do cartao-->
+          <img src="images/foto-racao-1.png" class="imagen__curso"><!--Imagem do cartao-->
+          <div class="info__card">
+            <h4>DogShow ExtraLife 1kg</h4><!--Titulo-->
+            <img src="img/estrellas.png"><!--Classificacao-->
+            <p><span class="precio">$200</span> <span class="discount">R$25</span>  </p><!--Valor-->
+            <a href="#" class="agregar-carrito" data-id="1"><i class="fa fa-cart-plus"></i>&nbsp;  COLOCAR NO CARRINHO</a><!--Botao-->
+          </div>
+        </div> <!--.card-->
+      </div>
+
+      <div class="curso__item">
+        <div class="curso__card">
+          <img src="images/foto-racao-2.png" class="imagen__curso">
+          <div class="info__card">
+            <h4>Golden gatos 10kg</h4>
+            <img src="img/estrellas.png">
+            <p><span class="precio">$200</span> <span class="discount">R$95</span>  </p>
+            <a href="#" class="agregar-carrito" data-id="2"><i class="fa fa-cart-plus"></i>&nbsp;  COLOCAR NO CARRINHO</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="curso__item">
+        <div class="curso__card">
+          <img src="images/foto-racao-3.png" class="imagen__curso">
+          <div class="info__card">
+            <h4>Faro para filhotes 1kg</h4>
+            <img src="img/estrellas.png">
+            <p><span class="precio">$200</span> <span class="discount">R$16</span>  </p>
+            <a href="#"  class="agregar-carrito"  data-id="3"><i class="fa fa-cart-plus"></i>&nbsp;  COLOCAR NO CARRINHO</a>
+          </div>
+        </div> <!--.card-->
+      </div>
+      <div class="curso__item">
+        <div class="curso__card">
+          <img src="images/foto-racao.png" class="imagen__curso">
+          <div class="info__card">
+            <h4>Golden formula para carne e vegetais 1kg</h4>
+            <img src="img/estrellas.png">
+            <p><span class="precio">$200</span> <span class="discount">R$28</span>  </p>
+            <a href="#"  class="agregar-carrito"  data-id="4"><i class="fa fa-cart-plus"></i>&nbsp;  COLOCAR NO CARRINHO</a>
+          </div>
+        </div> <!--.card-->
+      </div>
+    </div>
+        <div class="depoimentos">
+<h3> Satisfaçāo garantida com nossos clientes!</h3>
+
+<img src="images/depoimentos.png" class="banner-depoimentos"> 
+<img src="images/cliente.png" class="cliente"> 
+          <div class="depoimento-cliente"> 
+            <h4> Meu pet adora vir ao petLove</h4>
+            <p> 
+It is a long established fact that a 
+reader will be distracted by the readable content 
+of a page when looking at its layout. </p>
+<p>The point of using Lorem Ipsum is that it 
+has a more-or-less normal distribution of letters,
+ as opposed to</p>
+ <span> <b> Julia Amourin</b></span>
+           
+          </div>
+
+        </div>
+
+        <footer>
+          <img src="images/footer.png" class="footer"> 
+          <div class = "endereco"> 
+          <h6>+55 61 388 83494</h6>
+<p>Rua 39  Bairro das Flores</p>
+<p> CEP 38338382</p>
+
+
+          </div>
+          <div class="redes-sociais">
+            <img src="images/facebook.png" width="41">
+            <img src="images/instagram 1.png" width="41">
+            <img src="images/whatsapp.png" width="41"> 
+        <h6>Horarios</h6>
+        <p> Seg a Sex 14:00 as 16:00</p>
+        <p> Sab 12:00 as 16:00</p>
+          </div>
+      
+    
+        </footer>
+      
+
+      
+      
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+
+</body>
+</html>
